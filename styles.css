@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family:'Noto Sans', sans-serif, 'Times New Roman', Times, serif;
+    color: #F1FAEE;
+}
+
+#hero {
+    background-image: url("images/lufkin.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0 45px 0;
+}
+
+#place {
+    background: #D7A349;
+    padding: 5px 10px; 
+}
+
+#fun-stuff {
+    background: #8AABE5;
+    padding: 5px 10px; 
+}
+
+#activities {
+    padding: 20px;
+    background-color: #F1FAEE;
+}
+
+.activities-possible {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.activity_img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;  
+}
+
+p { 
+    margin: 5px;
+    color: #1D3557;
+}
+
+.act-title {
+    color: #000018;
+    text-shadow: 0px 0px black;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.guide {
+    margin: 25px auto;
+    width: 400px;
+    display: flex;
+    background-color: #A8DADC;
+}
+
+#guide-box {
+    padding: 20px;
+    color: #1D3557;
+}
+
+#guide-img{
+    width: 110px;
+    margin: 15px;
+    border-radius: 6px;
+}
+
+#guide-p{
+    font-style: italic;
+}
+
+#guide-title {
+    font-weight: 800px;
+    text-shadow: 0px 0px black;
+    color: #000018;
+}
